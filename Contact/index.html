@@ -16,7 +16,7 @@
               <div class="collapse navbar-collapse" id="navbarMenu">
                 <ul class="navbar-nav">
                   <li><a class="nav-link active" href="/">Home</a></li>
-                  <li><a class="nav-link" href="/blog/">Blog</a></li>
+                  <li><a class="nav-link" href="/About/">About</a></li>
                   <li><a class="nav-link" href="/projects/">Projects</a></li>
                   <li><a class="nav-link" href="/Resources/">Tech Resources</a></li>
                   <li><a class="nav-link" href="/Photography/">Photography</a></li>
@@ -25,21 +25,32 @@
               </div>
             </div>
           </nav>
-    <title>Contact Roxanna</title>
+  
   </head>
   <body>
-    <h1 class="title">Contact</h1>
+      <html>
+      <head>
+        <title>Contact Roxanna</title>
+  <link rel="stylesheet" type="text/css"
+  href="contact.css">
+   </head>
+   <div class ="contact-title">
+       <h1> Inquiry for collaboration</h1>
+   </div>
+    <div class="contact-form">
+<form id="contact-form" method="post" action="contact-form-handler.php">
+<input name="name" type="text" class="form-control"
+placeholder="Your Name" required>
+<br> 
+<input name="email" type="email" class="form-control"
+placeholder="Your Email" required>
+<br>
+<textarea name="message" class="form-control" placeholder="Message"
+row="4" required></textarea>
+<br>
+<input type="submit" class="form-control submit" value="SEND MESSAGE">
 
-    <p>
-      Email: <a href="mailto:roxanna.barahona@outlook.com">roxanna.barahona@outlook.com</a>
-    </p>
-    <p>
-       LinkedIn: <a href="https://www.linkedin.com/in/roxannatb/">LinkedIn/Roxannatb</a>
-      </p>
-
-    <p>
-      Thank you for reaching out! :)<br>
-     
-    </p>
+ </form>
+        </div>
   </body>
 </html>
